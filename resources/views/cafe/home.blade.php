@@ -3,6 +3,9 @@
 @section('title', 'Sky Mews Cafe & Rooftop | Guwahati')
 
 @section('content')
+    <!-- Homescreen Loading Screen -->
+    <x-preloader />
+
     <!-- Hero Section -->
     <header class="relative pt-12 pb-24 md:py-28 overflow-hidden">
         <!-- Floating Floral Paper Elements -->
