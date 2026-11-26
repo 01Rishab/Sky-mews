@@ -24,10 +24,14 @@
         }
     ],
     "env": {
+        "APP_NAME": "Sky Mews",
         "APP_ENV": "production",
+        "APP_KEY": "base64:8TpqbLGAsr8nnEZcOblc4wNadnqMu9o2VpodT9bk03o=",
         "APP_DEBUG": "false",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "CACHE_STORE": "array"
+        "CACHE_STORE": "array",
+        "DB_CONNECTION": "sqlite",
+        "DB_DATABASE": ":memory:"
     }
 }
